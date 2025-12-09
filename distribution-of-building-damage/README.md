@@ -1,12 +1,12 @@
-#Distribution of Building Damage Across Districts
+# Distribution of Building Damage Across Districts
 
 This analysis identifies which districts suffered the highest percentage of severely damaged (high-severity) buildings based on the building, building_damage, household, and district tables.
 
-##Objective
+## Objective
 
 Determine the proportion of buildings classified as high severity damage within each district and rank districts from most to least affected.
 
-##Method
+## Method
 
 1. Added district_id to the building and building_damage tables.
 
@@ -24,7 +24,7 @@ Determine the proportion of buildings classified as high severity damage within 
 
 4. Ordered results in descending order to highlight the most impacted districts.
 
-##Findings
+## Findings
 
 Districts at the top of the output list have the highest percentage of severely damaged buildings.
 
@@ -32,7 +32,7 @@ Districts lower in the ranking experienced comparatively less structural impact.
 
 Percentages reflect relative severity, not total building count, making the comparison consistent across districts.
 
-##Notes
+## Notes
 
 The analysis assumes severity = 'high' represents complete or near-complete structural damage.
 
